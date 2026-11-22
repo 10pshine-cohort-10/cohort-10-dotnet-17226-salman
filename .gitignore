@@ -1,8 +1,65 @@
 # ==============================
+# .NET / Visual Studio
+# ==============================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+artifacts/
+publish/
+
+# Logs (Serilog files)
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Test results & coverage
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# OS files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+
+# ==============================
 # Project-specific
 # ==============================
 
 # Secrets & local config (never commit passwords / JWT keys)
+.env
 .env.*
 !.env.example
 appsettings.*.local.json
@@ -14,6 +71,7 @@ secrets.json
 *.db-wal
 
 # Frontend (React + Vite)
+node_modules/
 frontend/dist/
 frontend/dist-ssr/
 frontend/coverage/
