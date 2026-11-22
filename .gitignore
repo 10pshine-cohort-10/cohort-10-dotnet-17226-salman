@@ -21,6 +21,7 @@ publish/
 # Visual Studio / Rider / VS Code
 .vs/
 .idea/
+.vscode/
 *.user
 *.suo
 *.userprefs
