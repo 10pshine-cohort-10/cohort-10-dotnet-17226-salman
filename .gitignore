@@ -1,0 +1,29 @@
+# ==============================
+# Project-specific
+# ==============================
+
+# Secrets & local config (never commit passwords / JWT keys)
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Frontend (React + Vite)
+frontend/dist/
+frontend/dist-ssr/
+frontend/coverage/
+*.local
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# SonarQube
+.sonarqube/
+.scannerwork/
