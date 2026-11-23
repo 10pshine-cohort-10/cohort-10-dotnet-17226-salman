@@ -1,4 +1,4 @@
-﻿namespace TaskManager.UnitTests;
+﻿namespace Api.Tests;
 
 public class UnitTest1
 {
